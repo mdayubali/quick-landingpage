@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1024px){
+    .project__details{
+        max-width: 60%;
+    }
+    .project__heading{
+        max-width: 100%;
+    }
+    .content{
+        max-width: 80%;
+    }    
+}
+@media only screen and (max-width: 768px){
+    h1.title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .hero__image img{
+        max-width: 90%;
+    }
+    .py-60{
+        padding-block: 30px;
+    }
+    .project__section.py-60{
+        padding-block: 15px;
+    }
+    .project__details {
+        max-width: 90%;
+    }
+    .project__heading .title {
+        font-size: 34px;
+    }
+    .service__content h2.title {
+        font-size: 18px;
+        margin-block: 15px 10px;
+    }
+    .service__content {
+        padding: 30px 10px;
+    }
+    .service__content img {
+        max-height: 145px;
+        object-fit: contain;
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-4,.col-6{
+        width: 100%;
+    }
+    .navbar__nav.d-flex{
+        flex-direction: row;
+    }
+    section.about__section.py-60 {
+        padding-top: 130px;
+    }
+    .about__section .text-center{
+        text-align: unset;
+    }
+    h1.title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .text-right{
+        text-align: left;
+    }
+    .project__details {
+        max-width: 100%;
+    }
+    h2.heading{
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .project__heading .title {
+        font-size: 26px;
+    }
+    .service__content img {
+        margin-inline: auto
+    }
+}
